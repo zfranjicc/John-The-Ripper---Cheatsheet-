@@ -77,3 +77,9 @@ john --wordlist=/usr/share/wordlists/rockyou.txt --format=sha512crypt unshadowed
 | `zip`, `rar`, `pdf` | File-based hash formats |
 
 Run `john --list=formats` for a full list.
+
+
+
+💬 Author's Note
+This list was compiled for your own use and practice through CTF challenges and test environments like TryHackMe and Hack The Box.
+Do not use these commands on networks without permission. 🛡️
