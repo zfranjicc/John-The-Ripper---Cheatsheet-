@@ -29,6 +29,16 @@ unshadow passwd shadow > unshadowed.txt` | Merge `/etc/passwd` and `/etc/shadow`
 john --wordlist=/usr/share/wordlists/rockyou.txt --format=sha512crypt unshadowed.txt` | Crack unshadowed Linux hashes |
 
 ---
+## 🔎How to find Hash ID?
+```
+git clone https://github.com/blackploit/hash-identifier.git
+```
+```
+python3 hashid.py
+
+```
+
+---
 
 ## 🏆 Top John the Ripper Commands
 
