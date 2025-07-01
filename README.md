@@ -51,12 +51,19 @@ john --wordlist=/usr/share/wordlists/rockyou.txt --format=sha512crypt unshadowed
 
 
 ## 🔎How to find Hash ID?
+
+First: Open directory ` hash-identifier` !
 ```
 git clone https://github.com/blackploit/hash-identifier.git
 ```
 ```
 python3 hashid.py
 ```
+or
+```
+python3 hash-id.py
+```
+
 
 ---
 
